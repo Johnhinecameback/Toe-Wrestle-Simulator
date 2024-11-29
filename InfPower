@@ -1,0 +1,5 @@
+local args = {
+    [1] = math.huge -- inf change math.huge to any number and execute!
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Events"):WaitForChild("AddPower"):FireServer(unpack(args))
